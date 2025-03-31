@@ -1,0 +1,943 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<title>About Us | Algo Bank</title>
+
+<!-- Fav Icon -->
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link href="css/font-awesome-all.css" rel="stylesheet">
+<link href="css/flaticon.css" rel="stylesheet">
+<link href="css/owl.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/nice-select.css" rel="stylesheet">
+<link href="css/odometer.css" rel="stylesheet">
+<link href="css/elpath.css" rel="stylesheet">
+<link href="css/color.css" id="jssDefault" rel="stylesheet">
+<link href="css/rtl.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/header.css" rel="stylesheet">
+<link href="css/page-title.css" rel="stylesheet">
+<link href="css/about.css" rel="stylesheet">
+<link href="css/funfact.css" rel="stylesheet">
+<link href="css/cta.css" rel="stylesheet">
+<link href="css/account.css" rel="stylesheet">
+<link href="css/team.css" rel="stylesheet">
+<link href="css/apps.css" rel="stylesheet">
+<link href="css/testimonial.css" rel="stylesheet">
+<link href="css/news.css" rel="stylesheet">
+<link href="css/subscribe.css" rel="stylesheet">
+<link href="css/footer.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+
+<!-- page wrapper -->
+<body>
+
+    <div class="boxed_wrapper ltr">
+
+
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close"><i class="fal fa-times"></i></div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                      <div class="txt-loading">
+                            <span data-text-preloader="A" class="letters-loading">
+                                A
+                            </span>
+                            <span data-text-preloader="L" class="letters-loading">
+                                L
+                            </span>
+                            <span data-text-preloader="G" class="letters-loading">
+                                G
+                            </span>
+                            <span data-text-preloader="O" class="letters-loading">
+                                O
+                            </span>
+                            <span data-text-preloader="B" class="letters-loading">
+                                B
+                            </span>
+                            <span data-text-preloader="A" class="letters-loading">
+                                A
+                            </span>
+                            <span data-text-preloader="N" class="letters-loading">
+                                N
+                            </span>
+                            <span data-text-preloader="K" class="letters-loading">
+                                K
+                            </span>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+
+        <!-- page-direction -->
+        <!-- <div class="page_direction">
+            <div class="demo-rtl direction_switch"><button class="rtl">RTL</button></div>
+            <div class="demo-ltr direction_switch"><button class="ltr">LTR</button></div>
+        </div> -->
+        <!-- page-direction end -->
+
+
+        <!--Search Popup-->
+        <div id="search-popup" class="search-popup">
+            <div class="popup-inner">
+                <div class="upper-box">
+                    <figure class="logo-box p_relative z_1"><a href="index.html"><img src="images/algo-bank-logo.png" alt=""></a></figure>
+                    <div class="close-search"><i class="fal fa-times"></i></div>
+                </div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="search-form">
+                        <form method="post" action="index.html">
+                            <div class="form-group">
+                                <fieldset>
+                                    <input type="search" class="form-control" name="search-input" value="" placeholder="Type your keyword and hit" required="">
+                                    <button type="submit"><i class="icon-10"></i></button>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- main header -->
+            <header class="main-header header-style-three">
+                <!-- header-top -->
+                <div class="header-top">
+                    <div class="outer-container">
+                        <div class="top-inner">
+                            <div class="option-block">
+                                <div class="support-box">
+                                    <!-- <div class="icon-box"><i class="icon-07"></i></div>
+                                    <a href="tel:912345678">91 2345 678</a> -->
+                                </div>
+                                <div class="language-selector" id="languageSelector">
+                                    <div class="selected-language" onclick="toggleDropdown()">
+                                        <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/es.svg"  alt="Español" class="flag-icon" id="selectedFlag">
+                                        <span class="dropdown-arrow"></span>
+                                    </div>
+                                    <div class="dropdown-buffer"></div>
+                                    <div class="language-options" id="languageOptions">
+                                        <a href="../about.html" class="language-option" data-lang="en">
+                                            <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/gb.svg" alt="English" class="flag-icon">
+                                            <span>English</span>
+                                        </a>
+                                        <a href="../du/about.html" class="language-option" data-lang="nl">
+                                            <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/nl.svg" alt="Nederlands" class="flag-icon">
+                                            <span>Dutch</span>
+                                        </a>
+                                        <a href="about.html" class="language-option" data-lang="es">
+                                            <img src="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/flags/4x3/es.svg" alt="Español" class="flag-icon">
+                                            <span>Spanish</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="info-list clearfix">
+                                <li><i class="icon-28"></i><span>£20 de descuento</span> & asistencia gratuita las 24 horas, los 7 días de la semana</li>
+                                <li><i class="icon-27"></i>Guías de trading gratuitas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- header-lower -->
+                <div class="header-lower">
+                    <div class="outer-container">
+                        <div class="outer-box">
+                            <figure class="logo-box"><a href="index.html"><img src="images/algo-bank-logo.png" alt=""></a></figure>
+                            <div class="menu-area">
+                                <!--Mobile Navigation Toggler-->
+                                <div class="mobile-nav-toggler">
+                                    <i class="icon-bar"></i>
+                                    <i class="icon-bar"></i>
+                                    <i class="icon-bar"></i>
+                                </div>
+                                <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                                    <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                        <ul class="navigation clearfix">
+                                            <li class=""><a href="index.html">Hogar</a></li> 
+                                            <li class="current"><a href="about.html">Sobre nosotros</a></li>
+                                            <li><a href="faq.html">Preguntas frecuentes</a></li>
+                                            <li><a href="contact.html">Contacto</a></li> 
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="menu-right-content">
+                                <div class="search-btn mr_25"><button class="search-toggler"><i class="icon-10"></i></button></div>
+                                <div class="btn-box"><a href="https://client.algobanc.org/#/register" class="theme-btn btn-one">Abrir cuenta</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--sticky Header-->
+                <div class="sticky-header">
+                    <div class="large-container">
+                        <div class="outer-box">
+                            <figure class="logo-box"><a href="index.html"><img src="images/algo-bank-logo.png" alt=""></a></figure>
+                            <div class="menu-area">
+                                <nav class="main-menu clearfix">
+                                    <!--Keep This Empty / Menu will come through Javascript-->
+                                </nav>
+                            </div>
+                            <div class="menu-right-content">
+                                <div class="search-btn mr_25"><button class="search-toggler"><i class="icon-10"></i></button></div>
+                                <div class="btn-box"><a href="https://client.algobanc.org/#/register" class="theme-btn btn-one">Abrir cuenta</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        <!-- main-header end -->
+
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/algo-bank-logo.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <!-- <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div> -->
+            </nav>
+        </div>
+        <!-- End Mobile Menu -->
+
+
+        <!-- page-title -->
+        <section class="page-title centred pt_90 pb_0">
+            <div class="pattern-layer rotate-me" style="background-image: url(images/shape-34.png);"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1>Sobre nosotros</h1>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="index.html">Hogar</a></li>
+                        <li>Sobre nosotros</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- page-title end -->
+
+
+        <!-- about-style-three -->
+        <section class="about-style-three pt_90 pb_100">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_seven">
+                            <div class="content-box">
+                                <div class="sec-title pb_50">
+                                    <span class="sub-title mb_14">Sobre nosotros</span>
+                                    <h2>Capacitando a los comerciantes con <span>soluciones de inversión más inteligentes</span></h2>
+                                </div>
+                                <ul class="accordion-box">
+                                    <li class="accordion block active-block">
+                                        <div class="acc-btn active">
+                                            <div class="icon-box"><i class="icon-29"></i></div>
+                                            <h3>Nuestra misión</h3>
+                                        </div>
+                                        <div class="acc-content current">
+                                            <div class="content">
+                                                <p>Nos esforzamos por ofrecer soluciones comerciales seguras, eficientes y perspicaces, ayudando a los inversores a lograr el éxito financiero a nivel mundial.</p>
+                                                <!-- <a href="faq.html">Learn More</a> -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="accordion block">
+                                        <div class="acc-btn">
+                                            <div class="icon-box"><i class="icon-29"></i></div>
+                                            <h3>Nuestra visión</h3>
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="content">
+                                                <p>Revolucionar el comercio en línea ofreciendo herramientas innovadoras, conocimientos expertos y acceso fluido al mercado para todos los comerciantes.</p>
+                                                <!-- <a href="faq.html">Learn More</a> -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="accordion block">
+                                        <div class="acc-btn">
+                                            <div class="icon-box"><i class="icon-29"></i></div>
+                                            <h3>Nuestros valores</h3>
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="content">
+                                                <p>La integridad, la transparencia y los servicios centrados en el cliente impulsan nuestro compromiso de brindar la mejor experiencia comercial posible.</p>
+                                                <!-- <a href="faq.html">Learn More</a> -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 video-column">
+                        <div class="video_block_one">
+                            <div class="video-box z_1 p_relative ml_50 centred">
+                                <figure class="image-box"><img src="images/video-1.png" alt=""></figure>
+                                <div class="video-content">
+                                    <!-- <div class="curve-text">
+                                        <span class="curved-circle">watch�the��video��right�now��</span>
+                                    </div> -->
+                                    <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&t=28s" class="lightbox-image video-btn" data-caption=""><i class="icon-11"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- about-style-three end -->
+
+
+        <!-- funfact-style-two -->
+        <section class="funfact-style-two centred pb_100">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="row clearfix">
+                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
+                            <div class="funfact-block-two">
+                                <div class="shape" style="background-image: url(images/shape-8.png);"></div>
+                                <div class="inner-box">
+                                    <div class="count-outer">
+                                        <span class="odometer" data-count="10">00</span><span>k +</span>
+                                    </div>
+                                    <p>Comerciantes activos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
+                            <div class="funfact-block-two">
+                                <div class="shape" style="background-image: url(images/shape-8.png);"></div>
+                                <div class="inner-box">
+                                    <div class="count-outer">
+                                        <span class="odometer" data-count="500">00</span><span>M $</span>
+                                    </div>
+                                    <p>Volumen de operaciones</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
+                            <div class="funfact-block-two">
+                                <div class="shape" style="background-image: url(images/shape-8.png);"></div>
+                                <div class="inner-box">
+                                    <div class="count-outer">
+                                        <span class="odometer" data-count="99.99">00</span>%
+                                    </div>
+                                    <p>Garantía de tiempo de actividad</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
+                            <div class="funfact-block-two">
+                                <div class="shape" style="background-image: url(images/shape-8.png);"></div>
+                                <div class="inner-box">
+                                    <div class="count-outer">
+                                        <span class="odometer">24</span><span>/7</span>
+                                    </div>
+                                    <p>Atención al cliente</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- funfact-style-two end -->
+
+
+        <!-- cta-section -->
+        <section class="cta-section">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="shape" style="background-image: url(images/shape-16.png);"></div>
+                    <div class="icon-box"><img src="images/coin-1.png" alt=""></div>
+                    <h2><span>Opere por</span> menos, <span>con</span> precios bajos <br><span>y</span> tarifas transparentes</h2>
+                    <div class="btn-box"><a href="#l" class="theme-btn btn-one">Pruebe el trading de demostración</a></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- cta-section end -->
+
+
+        <!-- account-style-three -->
+        <section class="account-style-three pt_100 pb_70">
+            <div class="auto-container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 inner-column">
+                        <div class="inner-content">
+                            <div class="row clearfix">
+                                <div class="col-lg-6 col-md-6 col-sm-12 account-block">
+                                    <div class="account-block-one pb_1 wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><i class="icon-01"></i></div>
+                                            <h3><a href="#">Comercio de oro</a></h3>
+                                            <p>Opere en oro con información de expertos, análisis de mercado en tiempo real y transacciones seguras para obtener el máximo rendimiento y estabilidad.</p>
+                                        </div>
+                                    </div>
+                                    <div class="account-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><i class="icon-03"></i></div>
+                                            <h3><a href="#">Comercio de acciones</a></h3>
+                                            <p>Invierta en acciones de alto rendimiento con orientación estratégica, tendencias del mercado y ejecucin perfecta para obtener oportunidades comerciales rentables.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 account-block pt_75">
+                                    <div class="account-block-one pb_1 wow fadeInUp animated animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><i class="icon-02"></i></div>
+                                            <h3><a href="#">Comercio de divisas</a></h3>
+                                            <p>Navegue con confianza por los mercados Forex con datos en tiempo real, estrategias expertas y plataformas seguras para lograr un éxito ptimo en el comercio de divisas.</p>
+                                        </div>
+                                    </div>
+                                    <div class="account-block-one wow fadeInUp animated animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><i class="icon-04"></i></div>
+                                            <h3><a href="#">Apertura de cuenta</a></h3>
+                                            <p>Comience a operar rápidamente con nuestra apertura de cuenta sin complicaciones, tarifas bajas, soporte dedicado y asistencia de incorporación paso a paso.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_eight">
+                            <div class="content-box ml_60">
+                                <div class="sec-title pb_20">
+                                    <span class="sub-title mb_14">Cuentas</span>
+                                    <h2>Nuestra fuerza en los números <span>dice mucho</span></h2>
+                                </div>
+                                <div class="text-box">
+                                    <p>Nos comprometemos a ofrecer una experiencia comercial fluida con herramientas potentes, transacciones seguras y una creciente comunidad global de comerciantes.</p>
+                                    <ul class="list-style-one mb_40 clearfix">
+                                        <li>Ejecución de operaciones ultrarrápida cada segundo</li>
+                                        <li>Miles de millones procesados ​​en transacciones seguras</li>
+                                        <li>Miles de personas confían en nosotros para sus operaciones diarias</li>
+                                    </ul>
+                                    <a href="#" class="theme-btn btn-one">Crear una cuenta</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- account-style-three end -->
+
+
+        <!-- team-section -->
+        <!-- <section class="team-section pt_0 pb_70">
+            <div class="auto-container">
+                <div class="sec-title pb_60 centred">
+                    <span class="sub-title mb_14">Our expert team</span>
+                    <h2>Our Talented Team Member</h2>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="images/team-1.jpg" alt=""></figure>
+                                <div class="content-box">
+                                    <h3><a href="team-details.html">Olivia Quinn</a></h3>
+                                    <span class="designation">Forex Trader</span>
+                                    <ul class="social-links">
+                                        <li><a href="team.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-15"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-14"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="images/team-2.jpg" alt=""></figure>
+                                <div class="content-box">
+                                    <h3><a href="team-details.html">Nathan Hayes</a></h3>
+                                    <span class="designation">Consultant</span>
+                                    <ul class="social-links">
+                                        <li><a href="team.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-15"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-14"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="images/team-3.jpg" alt=""></figure>
+                                <div class="content-box">
+                                    <h3><a href="team-details.html">Ava Jensen</a></h3>
+                                    <span class="designation">Trading Assistant</span>
+                                    <ul class="social-links">
+                                        <li><a href="team.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-15"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-14"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="images/team-4.jpg" alt=""></figure>
+                                <div class="content-box">
+                                    <h3><a href="team-details.html">Sophia Knight</a></h3>
+                                    <span class="designation">President of Trade</span>
+                                    <ul class="social-links">
+                                        <li><a href="team.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-15"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-14"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="images/team-5.jpg" alt=""></figure>
+                                <div class="content-box">
+                                    <h3><a href="team-details.html">Ethan brooks</a></h3>
+                                    <span class="designation">Marketing Coordinator</span>
+                                    <ul class="social-links">
+                                        <li><a href="team.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-15"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-14"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one">
+                            <div class="inner-box">
+                                <figure class="image-box"><img src="images/team-6.jpg" alt=""></figure>
+                                <div class="content-box">
+                                    <h3><a href="team-details.html">Aronic kehan</a></h3>
+                                    <span class="designation">Business Assistant</span>
+                                    <ul class="social-links">
+                                        <li><a href="team.html"><i class="icon-13"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-15"></i></a></li>
+                                        <li><a href="team.html"><i class="icon-14"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- team-section end -->
+
+
+        <!-- apps-style-two -->
+        <!-- <section class="apps-style-two pt_150 pb_150">
+            <div class="pattern-layer" style="background-image: url(images/shape-18.png);"></div>
+            <figure class="image-layer"><img src="images/mockup-1.png" alt=""></figure>
+            <div class="auto-container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_four">
+                            <div class="content-box ml_80">
+                                <div class="sec-title light pb_40">
+                                    <span class="sub-title mb_14">Download App</span>
+                                    <h2>Download Trading App</h2>
+                                    <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="about.html" class="apple-store">
+                                        <img src="images/icon-7.png" alt="">
+                                        <span>Download on</span>
+                                        App Store
+                                    </a>
+                                    <a href="about.html" class="play-store">
+                                        <img src="images/icon-8.png" alt="">
+                                        <span>Get it on</span>
+                                        Google Play
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- apps-style-two end -->
+
+
+        <!-- testimonial-section -->
+        <section class="testimonial-section centred pt_100 pb_90">
+            <div class="auto-container">
+                <div class="sec-title pb_60">
+                    <span class="sub-title mb_14">Testimonios</span>
+                    <h2>Amor de los clientes</h2>
+                </div>
+                <div class="inner-container">
+                    <div class="thumb-box">
+                        <div class="thumb thumb-1"><img src="images/thumb-1.png" alt=""></div>
+                        <div class="thumb thumb-2"><img src="images/thumb-2.png" alt=""></div>
+                        <div class="thumb thumb-3"><img src="images/thumb-3.png" alt=""></div>
+                        <div class="thumb thumb-4"><img src="images/thumb-4.png" alt=""></div>
+                        <div class="thumb thumb-5"><img src="images/thumb-5.png" alt=""></div>
+                        <div class="thumb thumb-6"><img src="images/thumb-6.png" alt=""></div>
+                        <div class="thumb thumb-7"><img src="images/thumb-7.png" alt=""></div>
+                        <div class="thumb thumb-8"><img src="images/thumb-8.png" alt=""></div>
+                    </div>
+                    <div class="single-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
+                        <div class="testimonial-content">
+                            <h2>“Esta plataforma transformó mi experiencia comercial con una ejecución fluida.”</h2>
+                            <p>He experimentado una ejecución comercial increíblemente rápida, información confiable del mercado y una interfaz fácil de usar, lo que hace que mi experiencia comercial sea más fluida y rentable que nunca.</p>
+                            <h3>James Carter</h3>
+                            <!-- <span class="designation">Uses Saxolvestor</span> -->
+                        </div>
+                        <div class="testimonial-content">
+                            <h2>“Plataforma confiable con excelente soporte y transacciones siempre seguras.</h2>
+                            <p>Siempre que opero, me siento seguro sabiendo que la plataforma garantiza seguridad, transacciones rápidas y un equipo de soporte 24 horas al día, 7 días a la semana, listo para ayudar en cualquier momento.</p>
+                            <h3>Sofa Reynolds</h3>
+                            <!-- <span class="designation">Uses Saxolvestor</span> -->
+                        </div>
+                        <div class="testimonial-content">
+                            <h2>“La mejor experiencia de trading con datos en tiempo real y análisis de expertos.”</h2>
+                            <p>Tener acceso a las tendencias del mercado en tiempo real y a las estrategias profesionales ha mejorado significativamente mi toma de decisiones y ha aumentado mis ganancias comerciales.</p>
+                            <h3>Daniel Foster</h3>
+                            <!-- <span class="designation">Uses Saxolvestor</span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- testimonial-section end -->
+
+
+        <!-- news-section -->
+        <section class="news-section pt_0 pb_70">
+            <div class="auto-container">
+                <div class="sec-title centred pb_60">
+                    <span class="sub-title mb_14">Algo Trading</span>
+                    <h2>¿Por qué elegirnos?</h2>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <!-- <span class="post-date">20TH April, 2024</span> -->
+                                <h3><a href="blog-details.html">Comercio confiable y seguro</a></h3>
+                                <p>Opere con confianza utilizando nuestra plataforma segura, encriptación avanzada y estricto cumplimiento con las regulaciones financieras en todo el mundo.</p>
+                                <!-- <div class="link"><a href="blog-details.html">Read More</a></div> -->
+                            </div>
+                            <!-- <div class="author-box">
+                                <figure class="author-thumb"><img src="images/testimonial-1.png" alt=""></figure>
+                                <span>Daniel Marcon</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <!-- <span class="post-date">19TH April, 2024</span> -->
+                                <h3>Perspectivas de expertos sobre el mercado</h3>
+                                <p>Obtenga acceso a datos en tiempo real, análisis de expertos y conocimientos estratégicos para realizar operaciones informadas y rentables sin esfuerzo.</p>
+                                <!-- <div class="link"><a href="blog-details.html">Read More</a></div> -->
+                            </div>
+                            <!-- <div class="author-box">
+                                <figure class="author-thumb"><img src="images/testimonial-2.png" alt=""></figure>
+                                <span>Robert Henry</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <!-- <span class="post-date">18TH April, 2024</span> -->
+                                <h3><a href="blog-details.html">Transacciones fluidas</a></h3>
+                                <p>Disfrute de ejecución instantánea de órdenes, depósitos y retiros rápidos con múltiples métodos de pago para un comercio fluido y sin complicaciones.</p>
+                                <!-- <div class="link"><a href="blog-details.html">Read More</a></div> -->
+                            </div>
+                            <!-- <div class="author-box">
+                                <figure class="author-thumb"><img src="images/testimonial-3.png" alt=""></figure>
+                                <span>Victor Classic</span>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- news-section end -->
+
+
+        <!-- subscribe-section -->
+        <section class="subscribe-section">
+            <div class="bg-color"></div>
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="shape" style="background-image: url(images/shape-5.png);"></div>
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12 col-sm-12 text-column">
+                            <div class="text-box">
+                                <h2>Suscríbete para recibir las últimas actualizaciones</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 form-column">
+                            <div class="form-inner">
+                                <form method="post" action="contact.html">
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Dirección de correo electrónico" required="">
+                                        <button type="submit" class="theme-btn btn-one">Suscribir<i class="icon-26"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- subscribe-section end -->
+
+
+        <!-- main-footer -->
+        <footer class="main-footer">
+            <!-- <div class="widget-section p_relative pt_70 pb_80">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="col-lg-8 col-md-12 col-sm-12 big-column">
+                            <div class="row clearfix">
+                                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-title mb_11">
+                                            <h3>Sobre Nosotros</h3>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul class="links-list clearfix">
+                                                <li><a href="index.html">Quiénes somos</a></li>
+                                                <li><a href="index.html">Premios</a></li>
+                                                <li><a href="index.html">Principios</a></li>
+                                                <li><a href="index.html">Asociaciones</a></li>
+                                                <li><a href="contact.html">Contáctanos</a></li>
+                                                <li><a href="index.html">Carreras</a></li>
+                                                <li><a href="index.html">Gestión</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-title mb_11">
+                                            <h3>Plataformas</h3>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul class="links-list clearfix">
+                                                <li><a href="index.html">Forex</a></li>
+                                                <li><a href="index.html">CFDs de Criptomonedas</a></li>
+                                                <li><a href="index.html">CFDs de Acciones</a></li>
+                                                <li><a href="index.html">Materias Primas</a></li>
+                                                <li><a href="index.html">Metales Spot</a></li>
+                                                <li><a href="index.html">Energías</a></li>
+                                                <li><a href="index.html">MetaTrader 5</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-title mb_11">
+                                            <h3>Herramientas de Trading</h3>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul class="links-list clearfix">
+                                                <li><a href="index.html">FXT Navigator</a></li>
+                                                <li><a href="index.html">Trading Central</a></li>
+                                                <li><a href="index.html">Calendario Econmico</a></li>
+                                                <li><a href="index.html">Sentimiento del Mercado</a></li>
+                                                <li><a href="index.html">API de Trading</a></li>
+                                                <li><a href="index.html">VPS</a></li>
+                                                <li><a href="index.html">Rollover de CFDs</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-title mb_25">
+                                            <h3>Soporte</h3>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul class="links-list clearfix">
+                                                <li><a href="index.html">Información Legal</a></li>
+                                                <li><a href="index.html">Política de Privacidad</a></li>
+                                                <li><a href="index.html">Regulaciones</a></li>
+                                                <li><a href="index.html">Descargo de Responsabilidad</a></li>
+                                                <li><a href="index.html">Procedimiento de Quejas</a></li>
+                                                <li><a href="index.html">Noticias de la Empresa</a></li>
+                                                <li><a href="index.html">Videos de Trading</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-lower">
+                                <figure class="footer-logo"><a href="index.html"><img src="images/algo-trading-logo.png" alt=""></a></figure>
+                                <ul class="footer-card clearfix">
+                                    <li><h4>Aceptamos:</h4></li>
+                                    <li><a href="index.html"><img src="images/card-1.png" alt=""></a></li>
+                                    <li><a href="index.html"><img src="images/card-2.png" alt=""></a></li>
+                                    <li><a href="index.html"><img src="images/card-3.png" alt=""></a></li>
+                                    <li><a href="index.html"><img src="images/card-4.png" alt=""></a></li>
+                                    <li><a href="index.html"><img src="images/card-5.png" alt=""></a></li>
+                                    <li><a href="index.html"><img src="images/card-6.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget logo-widget centred ml_80">
+                                <div class="widget-content">
+                                    <figure class="footer-logo mb_15"><a href="index.html"><img src="images/logo-3.png" alt=""></a></figure>
+                                    <p>Opera multiplicadores en nuestra aplicación.</p>
+                                    <div class="scanner-box mb_30"><img src="images/icon-3.png" alt=""></div>
+                                    <ul class="download-list clearfix">
+                                        <li><a href="index.html"><i class="fab fa-apple"></i></a></li>
+                                        <li><a href="index.html"><img src="images/icon-2.png" alt=""></a></li>
+                                        <li><a href="index.html"><i class="fab fa-android"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="bottom-inner">
+                       <p>Todos los derechos reservados 2025-26 © Copyright - Algo Bank | Desarrollado por  <a target="_blank" href="https://www.tg3agency.com/">TG3 Agency</a></p>
+                        <!-- <ul class="social-links">
+                            <li><h5>Síguenos en:</h5></li>
+                            <li><a href="index.html"><i class="icon-12"></i></a></li>
+                            <li><a href="index.html"><i class="icon-13"></i></a></li>
+                            <li><a href="index.html"><i class="icon-14"></i></a></li>
+                            <li><a href="index.html"><i class="icon-15"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- main-footer end -->
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <svg class="scroll-top-inner" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+            </svg>
+        </div>
+        
+    </div>
+
+    <script>
+        function toggleDropdown() {
+            document.getElementById('languageSelector').classList.toggle('active');
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            const dropdown = document.getElementById('languageSelector');
+            if (!dropdown.contains(event.target)) {
+                dropdown.classList.remove('active');
+            }
+        });
+
+        // Get all language options
+        const options = document.querySelectorAll('.language-option');
+        
+        // Add click event for each option
+        options.forEach(option => {
+            option.addEventListener('click', function(e) {
+                // Prevent default link behavior to handle redirection with JavaScript
+                e.preventDefault();
+                
+                // Get selected language flag
+                const flagSrc = this.querySelector('.flag-icon').src;
+                
+                // Update selected flag
+                document.getElementById('selectedFlag').src = flagSrc;
+                
+                // Close dropdown
+                document.getElementById('languageSelector').classList.remove('active');
+                
+                // Redirect to the link
+                window.location.href = this.getAttribute('href');
+            });
+        });
+    </script>
+
+
+    <!-- jequery plugins -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/parallax-scroll.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/scrolltop.min.js"></script>
+    <!-- <script src="js/language.js"></script> -->
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/odometer.js"></script>
+    <script src="js/jquery.lettering.min.js"></script>
+    <script src="js/jquery.circleType.js"></script>
+
+    <!-- main-js -->
+    <script src="js/script.js"></script>
+
+
+
+</body><!-- End of .page_wrapper --></html>
